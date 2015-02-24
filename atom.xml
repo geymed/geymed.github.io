@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Coding Blog]]></title>
+  <title><![CDATA[Just A Thought]]></title>
   <link href="http://geymed.github.io/atom.xml" rel="self"/>
   <link href="http://geymed.github.io/"/>
-  <updated>2015-02-24T22:45:32+02:00</updated>
+  <updated>2015-02-24T23:40:31+02:00</updated>
   <id>http://geymed.github.io/</id>
   <author>
     <name><![CDATA[Gilad Foyer]]></name>
