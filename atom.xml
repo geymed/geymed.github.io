@@ -4,7 +4,7 @@
   <title><![CDATA[Just A Thought]]></title>
   <link href="http://geymed.github.io/atom.xml" rel="self"/>
   <link href="http://geymed.github.io/"/>
-  <updated>2015-02-24T23:40:31+02:00</updated>
+  <updated>2015-02-25T13:42:31+02:00</updated>
   <id>http://geymed.github.io/</id>
   <author>
     <name><![CDATA[Gilad Foyer]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[That's Me]]></title>
+    <title type="html"><![CDATA[Take One]]></title>
     <link href="http://geymed.github.io/blog/2015/02/24/my-first-post/"/>
     <updated>2015-02-24T22:40:34+02:00</updated>
     <id>http://geymed.github.io/blog/2015/02/24/my-first-post</id>
-    <content type="html"><![CDATA[<h2>And that what it&rsquo;s all about</h2>
-
-<p>In this blog post i&rsquo;m gonna write a bit about my phi</p>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
