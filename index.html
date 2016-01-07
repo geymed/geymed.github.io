@@ -109,7 +109,37 @@
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
-    
+    <div id="video-container"></div>
+<script>
+	window.srAsyncInit = function() {
+		SR('video-container', {    
+			inText: {
+	        	adTitle: {
+	        		text: 'Advertisement'
+	        	}
+	        }, 
+	        partnerID: 'your-streamrail-api-key',
+	        ads: {
+	        	schedule: [{
+	        		position: 'pre-roll',
+	        		server: {
+	        			tag: 'https://sdk.streamrail.com/demos/vast/vast.xml'
+	        		}
+	        	}]
+	        },
+	        scaleMode: 'original',
+	        autoplay: true,     
+			bgColor: 'transparent'
+	    });
+	};
+	(function(d, s, id){
+		var js, srjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://sdk.streamrail.com/player/sr.ads.js';
+		srjs.parentNode.insertBefore(js, srjs);
+	}(document, 'script', 'streamrail-jssdk'));
+</script>
   </div>
 </div>
 <aside class="sidebar">
